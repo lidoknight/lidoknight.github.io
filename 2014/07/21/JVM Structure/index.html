@@ -10,16 +10,7 @@
 
 抽象规范:Sun描述的所有JVM抽象约束规范
 一个具体实现:Oracle的Hotspot JVM;IBM的JVM
-一个运行中的虚拟机实例:一个由main方法启动运行中的JVM
-
-
-JVM Structure
-1. 基本架构
-
-
-
-Classloader 负责加载，连接，初始化类型，并把这些步骤之后的Class文件加入到JVM内存的方法区中，同时关联Class对象
-Runt">
+一个运行中的虚拟机实例:一个由main方法启动运行中的JVM">
 <meta property="og:type" content="article">
 <meta property="og:title" content="JVM Structure">
 <meta property="og:url" content="http://yoursite.com/2014/07/21/JVM Structure/">
@@ -29,21 +20,12 @@ Runt">
 
 抽象规范:Sun描述的所有JVM抽象约束规范
 一个具体实现:Oracle的Hotspot JVM;IBM的JVM
-一个运行中的虚拟机实例:一个由main方法启动运行中的JVM
-
-
-JVM Structure
-1. 基本架构
-
-
-
-Classloader 负责加载，连接，初始化类型，并把这些步骤之后的Class文件加入到JVM内存的方法区中，同时关联Class对象
-Runt">
+一个运行中的虚拟机实例:一个由main方法启动运行中的JVM">
 <meta property="og:image" content="/img/jvm structure/basic_structure.png">
 <meta property="og:image" content="/img/jvm structure/data_type.png">
 <meta property="og:image" content="/img/jvm structure/start_mechanism.png">
 <meta property="og:image" content="/img/jvm structure/method-area.png">
-<meta property="og:image" content="/img/jvm structure/summary.png">
+<meta property="og:image" content="/img/jvm structure/summary.jpg">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="JVM Structure">
 <meta name="twitter:description" content="What’s JVM
@@ -51,16 +33,7 @@ Runt">
 
 抽象规范:Sun描述的所有JVM抽象约束规范
 一个具体实现:Oracle的Hotspot JVM;IBM的JVM
-一个运行中的虚拟机实例:一个由main方法启动运行中的JVM
-
-
-JVM Structure
-1. 基本架构
-
-
-
-Classloader 负责加载，连接，初始化类型，并把这些步骤之后的Class文件加入到JVM内存的方法区中，同时关联Class对象
-Runt">
+一个运行中的虚拟机实例:一个由main方法启动运行中的JVM">
 
   
     <link rel="alternative" href="/atom.xml" title="Danny&#39;s" type="application/atom+xml">
@@ -189,6 +162,7 @@ Runt">
 <li>一个运行中的虚拟机实例:一个由main方法启动运行中的JVM</li>
 </ul>
 </blockquote>
+<p><a id="more"></a></p>
 <h2 id="JVM_Structure">JVM Structure</h2>
 <h3 id="1-_基本架构">1. 基本架构</h3>
 <p><img src="/img/jvm structure/basic_structure.png" alt="Basic Structure"></p>
@@ -425,7 +399,7 @@ Runt">
 <blockquote>
 <ul>
 <li>由虚拟机实现的设计者决定，执行引擎负责执行编译后的字节码</li>
-<li>运行中的Java程序每个线程都是一个独立的虚拟机执行引擎实例<br><img src="/img/jvm structure/summary.png" alt="Summary"></li>
+<li>运行中的Java程序每个线程都是一个独立的虚拟机执行引擎实例<br><img src="/img/jvm structure/summary.jpg" alt="Summary"></li>
 </ul>
 </blockquote>
 
